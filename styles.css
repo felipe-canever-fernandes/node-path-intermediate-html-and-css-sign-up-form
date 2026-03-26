@@ -18,6 +18,11 @@
 	font-weight: 700;
 }
 
+:root {
+	--color-green: #596D48;
+	--color-gray: #E5E7EB;
+}
+
 *,
 *::before,
 *::after {
@@ -28,4 +33,5 @@
 
 h1 {
 	font-family: "Norse";
+	color: var(--color-green);
 }
