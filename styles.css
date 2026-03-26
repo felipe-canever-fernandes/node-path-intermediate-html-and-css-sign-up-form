@@ -1,7 +1,31 @@
+@font-face {
+	font-family: "Norse";
+
+	src:
+		url("fonts/norse/norse.woff2") format("woff2"),
+		url("fonts/norse/norse.woff") format("woff");
+
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Norse";
+
+	src:
+		url("fonts/norse/norse-bold.woff2") format("woff2"),
+		url("fonts/norse/norse-bold.woff") format("woff");
+
+	font-weight: 700;
+}
+
 *,
 *::before,
 *::after {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+h1 {
+	font-family: "Norse";
 }
