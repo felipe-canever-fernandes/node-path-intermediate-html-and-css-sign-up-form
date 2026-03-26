@@ -29,7 +29,7 @@
 *::after {
 	outline-style: dashed;
 	outline-width: 1px;
-	outline-color: red;
+	outline-color: grey;
 }
 
 *,
