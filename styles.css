@@ -107,13 +107,19 @@ main {
 		flex-grow: 0;
 
 		h2 {
-			margin-bottom: 12px;
+			margin-bottom: 24px;
 		}
 
 		/* Inputs */
 		.inputs {
 			display: flex;
 			gap: 48px;
+
+			.column {
+				display: flex;
+				flex-direction: column;
+				gap: 16px;
+			}
 		}
 	}
 }
