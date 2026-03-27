@@ -57,76 +57,81 @@
 			<h2>Let's do this!</h2>
 
 			<!-- Inputs -->
-			<div>
-				<!-- First name -->
+			<div class="inputs">
+				<!-- Left column -->
 				<div>
-					<label for="first-name">First name</label>
+					<!-- First name -->
+					<div>
+						<label for="first-name">First name</label>
+						<input
+							type="text"
+							name="first-name"
+							id="first-name"
+							required
+						>
+					</div>
 
-					<input
-						type="text"
-						name="first-name"
-						id="first-name"
-						required
-					>
+					<!-- Email -->
+					<div>
+						<label for="email">Email</label>
+
+						<input
+							type="email"
+							name="email"
+							id="email"
+							required
+						>
+					</div>
+
+					<!-- Password -->
+					<div>
+						<label for="password">Password</label>
+
+						<input
+							type="password"
+							name="password"
+							id="password"
+							required
+						>
+					</div>
 				</div>
 
-				<!-- Last name -->
+				<!-- Right column -->
 				<div>
-					<label for="last-name">Last name</label>
+					<!-- Last name -->
+					<div>
+						<label for="last-name">Last name</label>
+						<input
+							type="text"
+							name="last-name"
+							id="last-name"
+							required
+						>
+					</div>
 
-					<input
-						type="text"
-						name="last-name"
-						id="last-name"
-						required
-					>
-				</div>
+					<!-- Phone number -->
+					<div>
+						<label for="phone-number">Phone number</label>
+						<input
+							type="tel"
+							name="phone-number"
+							id="phone-number"
+						>
+					</div>
 
-				<!-- Email -->
-				<div>
-					<label for="email">Email</label>
+					<!-- Password confirmation -->
+					<div>
+						<label for="password-confirmation">
+							Confirm password
+						</label>
 
-					<input
-						type="email"
-						name="email"
-						id="email"
-						required
-					>
-				</div>
-
-				<!-- Phone number -->
-				<div>
-					<label for="phone-number">Phone number</label>
-
-					<input
-						type="tel"
-						name="phone-number"
-						id="phone-number"
-					>
-				</div>
-
-				<!-- Password -->
-				<div>
-					<label for="password">Password</label>
-
-					<input
-						type="password"
-						name="password"
-						id="password"
-						required
-					>
-				</div>
-
-				<!-- Password confirmation -->
-				<div>
-					<label for="password-confirmation">Confirm password</label>
-
-					<input
-						type="text"
-						name="password-confirmation"
-						id="password-confirmation"
-						required
-					>
+						<input
+							type="text"
+							name="password-confirmation"
+							id="password-confirmation"
+							required
+						>
+					</div>
 				</div>
 			</div>
 		</form>

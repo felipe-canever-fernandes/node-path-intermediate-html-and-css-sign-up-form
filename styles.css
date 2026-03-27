@@ -109,5 +109,11 @@ main {
 		h2 {
 			margin-bottom: 12px;
 		}
+
+		/* Inputs */
+		.inputs {
+			display: flex;
+			gap: 48px;
+		}
 	}
 }
