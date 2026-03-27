@@ -125,3 +125,11 @@ main form .inputs .column .input {
 	display: flex;
 	flex-direction: column;
 }
+
+main form .inputs .column .input label {
+	text-transform: uppercase;
+}
+
+main form .inputs .column .input input {
+	width: 256px;
+}
