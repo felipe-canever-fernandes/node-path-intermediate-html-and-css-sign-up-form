@@ -49,6 +49,7 @@ body {
 }
 
 /* Background */
+
 header {
 	width: 384px;
 
@@ -57,76 +58,70 @@ header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
 
-	/* Header */
-	.header {
-		width: 100%;
-		margin-top: 128px;
-		padding: 8px;
+header .header {
+	width: 100%;
+	margin-top: 128px;
+	padding: 8px;
 
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
-	/* Source */
-	.source {
-		margin-top: auto;
-	}
+header .source {
+	margin-top: auto;
 }
 
 /* Main */
+
 main {
 	display: flex;
 	flex-direction: column;
+}
 
-	&>* {
-		flex-basis: 0;
-		flex-grow: 1;
-	}
+main > * {
+	flex-basis: 0;
+	flex-grow: 1;
+}
 
-	/* Message */
-	.message {
-		padding-bottom: 48px;
-		padding-left: 32px;
-		padding-right: 32px;
+main .message {
+	padding-bottom: 48px;
+	padding-left: 32px;
+	padding-right: 32px;
 
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-end;
-		gap: 24px;
-	}
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	gap: 24px;
+}
 
-	/* Form */
-	form {
-		padding-top: 16px;
-		padding-bottom: 24px;
-		padding-left: 32px;
-		padding-left: 32px;
+main form {
+	padding-top: 16px;
+	padding-bottom: 24px;
+	padding-left: 32px;
+	padding-left: 32px;
 
-		flex-grow: 0;
+	flex-grow: 0;
+}
 
-		h2 {
-			margin-bottom: 24px;
-		}
+main form h2 {
+	margin-bottom: 24px;
+}
 
-		/* Inputs */
-		.inputs {
-			display: flex;
-			gap: 48px;
+main form .inputs {
+	display: flex;
+	gap: 48px;
+}
 
-			/* Columns */
-			.column {
-				display: flex;
-				flex-direction: column;
-				gap: 16px;
+main form .inputs .column {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
 
-				/* Input groups */
-				.input {
-					display: flex;
-					flex-direction: column;
-				}
-			}
-		}
-	}
+main form .inputs .column .input {
+	display: flex;
+	flex-direction: column;
 }
