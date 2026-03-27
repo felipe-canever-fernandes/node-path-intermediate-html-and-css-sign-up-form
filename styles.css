@@ -73,3 +73,18 @@ header {
 		margin-top: auto;
 	}
 }
+
+/* Main */
+main {
+	display: flex;
+	flex-direction: column;
+
+	&>* {
+		flex-basis: 0;
+		flex-grow: 1;
+	}
+
+	form {
+		flex-grow: 0;
+	}
+}
