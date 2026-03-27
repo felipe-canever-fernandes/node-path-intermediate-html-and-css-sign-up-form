@@ -115,10 +115,17 @@ main {
 			display: flex;
 			gap: 48px;
 
+			/* Columns */
 			.column {
 				display: flex;
 				flex-direction: column;
 				gap: 16px;
+
+				/* Input groups */
+				.input {
+					display: flex;
+					flex-direction: column;
+				}
 			}
 		}
 	}
