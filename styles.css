@@ -48,6 +48,24 @@ body {
 	display: flex;
 }
 
+/* Background */
 header {
 	width: 384px;
+
+	padding-bottom: 16px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	/* Header */
+	.header {
+		width: 100%;
+		margin-top: 128px;
+	}
+
+	/* Source */
+	.source {
+		margin-top: auto;
+	}
 }
