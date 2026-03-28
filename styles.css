@@ -59,9 +59,17 @@ header .header {
 	margin-top: 128px;
 	padding: 8px;
 
+	background-color: hsla(0deg, 0%, 0%, 0.5);
+	color: hsla(0deg, 0%, 100%, 1.0);
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+header .header h1 {
+	font-family: "Norse";
+	font-size: 48px;
 }
 
 header .source {
