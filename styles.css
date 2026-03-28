@@ -74,6 +74,12 @@ header .header h1 {
 
 header .source {
 	margin-top: auto;
+	font-size: 12px;
+	color: hsla(0deg, 0%, 90%, 1.0);
+}
+
+header .source a {
+	color: inherit;
 }
 
 /* Main */
