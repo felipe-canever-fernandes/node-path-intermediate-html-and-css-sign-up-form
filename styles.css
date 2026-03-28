@@ -42,9 +42,12 @@ body {
 /* Background */
 
 header {
-	width: 384px;
-
+	width: 512px;
 	padding-bottom: 16px;
+
+	background-image: url("images/fern.png");
+	background-size: auto 100%;
+	background-position: center;
 
 	display: flex;
 	flex-direction: column;
