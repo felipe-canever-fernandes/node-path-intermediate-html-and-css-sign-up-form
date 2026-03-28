@@ -25,15 +25,6 @@
 	--color-gray: #E5E7EB;
 }
 
-/* Debug */
-*,
-*::before,
-*::after {
-	outline-style: dashed;
-	outline-width: 1px;
-	outline-color: grey;
-}
-
 /* Reset */
 *,
 *::before,
