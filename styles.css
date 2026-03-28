@@ -133,3 +133,15 @@ main form .inputs .column .input label {
 main form .inputs .column .input input {
 	width: 256px;
 }
+
+main .continuation {
+	padding-top: 24px;
+	padding-bottom: 16px;
+	padding-left: 32px;
+	padding-left: 32px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 24px;
+}
