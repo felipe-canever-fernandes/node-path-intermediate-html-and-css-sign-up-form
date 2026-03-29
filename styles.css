@@ -140,6 +140,9 @@ main form .inputs .column .input {
 }
 
 main form .inputs .column .input label {
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 
