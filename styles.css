@@ -21,8 +21,13 @@
 }
 
 :root {
-	--color-green: #596D48;
-	--color-gray: #E5E7EB;
+	--color-brand: hsl(92, 20%, 35%);
+	--color-text-strong: hsl(92, 80%, 10%);
+	--color-text-weak: hsl(92, 20%, 30%);
+	--color-stroke-strong: hsl(92, 10%, 50%);
+	--color-stroke-weak: hsl(92, 5%, 70%);
+	--color-fill: hsl(92, 5%, 90%);
+	--color-background: hsl(0, 0%, 100%);
 }
 
 /* Reset */
@@ -36,7 +41,10 @@
 
 body {
 	height: 100vh;
+
 	font-family: sans-serif;
+	color: var(--color-text-strong);
+
 	display: flex;
 }
 
@@ -60,8 +68,9 @@ header .header {
 	margin-top: 192px;
 	padding: 12px;
 
-	background-color: hsla(0deg, 0%, 0%, 0.5);
-	color: hsla(0deg, 0%, 100%, 1.0);
+	background-color: hsla(0, 0%, 0%, 0.5);
+	
+	color: hsla(0, 0%, 100%, 1.0);
 
 	display: flex;
 	justify-content: center;
@@ -177,10 +186,10 @@ main .continuation button {
 	padding-left: 64px;
 	padding-right: 64px;
 
-	background-color: var(--color-green);
+	background-color: var(--color-brand);
 
 	font-size: 18px;
 	font-weight: bold;
 	text-transform: capitalize;
-	color: hsla(0deg, 0%, 100%, 0.85);
+	color: var(--color-background);
 }
