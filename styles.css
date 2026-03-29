@@ -28,6 +28,7 @@
 	--color-stroke-weak: hsl(92, 5%, 80%);
 	--color-fill: hsl(92, 2%, 95%);
 	--color-background: hsl(0, 0%, 100%);
+	--color-red: hsl(0, 71%, 50%);
 }
 
 /* Reset */
