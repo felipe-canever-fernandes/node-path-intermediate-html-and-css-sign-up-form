@@ -231,3 +231,7 @@ main .continuation button:active {
 	box-shadow: none;
 	background-color: var(--color-text-strong);
 }
+
+main .continuation p {
+	font-size: 18px;
+}
