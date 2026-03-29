@@ -226,3 +226,8 @@ main .continuation button {
 main .continuation button:hover {
 	background-color: var(--color-text-weak);
 }
+
+main .continuation button:active {
+	box-shadow: none;
+	background-color: var(--color-text-strong);
+}
