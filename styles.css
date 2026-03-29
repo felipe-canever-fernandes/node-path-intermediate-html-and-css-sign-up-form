@@ -235,3 +235,21 @@ main .continuation button:active {
 main .continuation p {
 	font-size: 18px;
 }
+
+main .continuation p a {
+	font-weight: bold;
+	text-decoration: none;
+	color: var(--color-brand);
+}
+
+main .continuation p a:hover {
+	color: var(--color-text-weak);
+}
+
+main .continuation p a:active {
+	color: var(--color-text-strong);
+}
+
+main .continuation p a:visited {
+	color: var(--color-stroke-strong);
+}
