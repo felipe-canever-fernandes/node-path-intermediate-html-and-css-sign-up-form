@@ -188,6 +188,10 @@ main form .inputs .column .input input:focus {
 	border-color: var(--color-brand);
 }
 
+main form .inputs .column .input input:user-invalid {
+	border-color: var(--color-red);
+}
+
 main .continuation {
 	padding-top: 32px;
 	padding-bottom: 32px;
