@@ -125,13 +125,13 @@ main form h2 {
 
 main form .inputs {
 	display: flex;
-	gap: 48px;
+	gap: 64px;
 }
 
 main form .inputs .column {
 	display: flex;
 	flex-direction: column;
-	gap: 16px;
+	gap: 24px;
 }
 
 main form .inputs .column .input {
