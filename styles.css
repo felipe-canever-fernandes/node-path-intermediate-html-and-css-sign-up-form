@@ -96,6 +96,8 @@ header .source a {
 
 main {
 	width: 800px;
+	background-color: var(--color-fill);
+
 	display: flex;
 	flex-direction: column;
 }
@@ -120,6 +122,8 @@ main .message {
 }
 
 main form {
+	background-color: var(--color-background);
+
 	padding-top: 16px;
 	padding-bottom: 24px;
 	padding-left: 32px;
