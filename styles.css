@@ -161,12 +161,17 @@ main form .inputs .column .input label {
 	font-weight: bold;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+	color: var(--color-text-weak);
 }
 
 main form .inputs .column .input input {
 	width: 288px;
 
+	border-width: 2px;
+	border-style: solid;
 	border-radius: 4px;
+	border-color: var(--color-stroke-weak);
+
 	padding: 6px;
 
 	font-size: 16px;
