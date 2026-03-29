@@ -181,6 +181,12 @@ main form .inputs .column .input input:hover {
 	border-color: var(--color-brand);
 }
 
+main form .inputs .column .input input:focus {
+	outline: none;
+	box-shadow: 1px 1px 5px 1px hsla(0, 0%, 0%, 0.15);
+	border-color: var(--color-brand);
+}
+
 main .continuation {
 	padding-top: 32px;
 	padding-bottom: 32px;
