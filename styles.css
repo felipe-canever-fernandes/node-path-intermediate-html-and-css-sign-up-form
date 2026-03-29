@@ -205,6 +205,8 @@ main .continuation {
 }
 
 main .continuation button {
+	box-shadow: 1px 1px 5px 1px hsla(0, 0%, 0%, 0.25);
+
 	border: none;
 	border-radius: 8px;
 
@@ -219,4 +221,8 @@ main .continuation button {
 	font-weight: bold;
 	text-transform: capitalize;
 	color: var(--color-background);
+}
+
+main .continuation button:hover {
+	background-color: var(--color-text-weak);
 }
