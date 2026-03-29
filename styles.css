@@ -147,7 +147,12 @@ main form .inputs .column .input label {
 }
 
 main form .inputs .column .input input {
-	width: 256px;
+	width: 288px;
+
+	border-radius: 4px;
+	padding: 6px;
+
+	font-size: 16px;
 }
 
 main .continuation {
