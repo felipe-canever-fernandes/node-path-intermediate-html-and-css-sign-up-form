@@ -22,11 +22,11 @@
 
 :root {
 	--color-brand: hsl(92, 20%, 35%);
-	--color-text-strong: hsl(92, 80%, 10%);
+	--color-text-strong: hsl(92, 40%, 10%);
 	--color-text-weak: hsl(92, 20%, 30%);
 	--color-stroke-strong: hsl(92, 10%, 50%);
 	--color-stroke-weak: hsl(92, 5%, 70%);
-	--color-fill: hsl(92, 5%, 90%);
+	--color-fill: hsl(92, 2%, 95%);
 	--color-background: hsl(0, 0%, 100%);
 }
 
