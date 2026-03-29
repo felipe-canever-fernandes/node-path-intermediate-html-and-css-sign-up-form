@@ -86,6 +86,7 @@ header .source a {
 /* Main */
 
 main {
+	width: 800px;
 	display: flex;
 	flex-direction: column;
 }
