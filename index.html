@@ -68,6 +68,7 @@
 							type="text"
 							name="first-name"
 							id="first-name"
+							tabindex="1"
 							required
 						>
 					</div>
@@ -80,6 +81,7 @@
 							type="email"
 							name="email"
 							id="email"
+							tabindex="3"
 							required
 						>
 					</div>
@@ -92,6 +94,7 @@
 							type="password"
 							name="password"
 							id="password"
+							tabindex="5"
 							required
 						>
 					</div>
@@ -106,6 +109,7 @@
 							type="text"
 							name="last-name"
 							id="last-name"
+							tabindex="2"
 							required
 						>
 					</div>
@@ -117,6 +121,7 @@
 							type="tel"
 							name="phone-number"
 							id="phone-number"
+							tabindex="4"
 						>
 					</div>
 
@@ -130,6 +135,7 @@
 							type="password"
 							name="password-confirmation"
 							id="password-confirmation"
+							tabindex="6"
 							required
 						>
 					</div>
@@ -140,11 +146,13 @@
 		<!-- Form continuation -->
 		<div class="continuation">
 			<!-- Button -->
-			<button type="submit" form="form">Create account</button>
+			<button type="submit" form="form" tabindex="7">
+				Create account
+			</button>
 
 			<p>
 				Already have an account?
-				<a href="">Log in</a>
+				<a href="" tabindex="8">Log in</a>
 			</p>
 		</div>
 	</main>
