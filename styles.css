@@ -137,6 +137,7 @@ main form .inputs .column {
 main form .inputs .column .input {
 	display: flex;
 	flex-direction: column;
+	gap: 2px;
 }
 
 main form .inputs .column .input label {
