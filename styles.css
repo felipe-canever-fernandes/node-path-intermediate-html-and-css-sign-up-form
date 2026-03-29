@@ -84,8 +84,8 @@ header .header h1 {
 
 header .source {
 	margin-top: auto;
-	font-size: 16px;
-	color: hsla(0deg, 0%, 100%, 0.85);
+	font-size: 14px;
+	color: hsla(0deg, 0%, 100%, 0.75);
 }
 
 header .source a {
