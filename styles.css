@@ -167,3 +167,20 @@ main .continuation {
 	align-items: flex-start;
 	gap: 24px;
 }
+
+main .continuation button {
+	border: none;
+	border-radius: 8px;
+
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 64px;
+	padding-right: 64px;
+
+	background-color: var(--color-green);
+
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: hsla(0deg, 0%, 100%, 0.85);
+}
