@@ -95,7 +95,8 @@ header .source a {
 /* Main */
 
 main {
-	width: 800px;
+	flex-grow: 1;
+
 	background-color: var(--color-fill);
 
 	display: flex;
@@ -108,6 +109,8 @@ main > * {
 }
 
 main .message {
+	width: 800px;
+
 	padding-bottom: 48px;
 	padding-left: 32px;
 	padding-right: 32px;
